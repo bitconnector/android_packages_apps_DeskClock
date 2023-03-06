@@ -129,6 +129,7 @@ public class ExpiredTimersActivity extends BaseActivity {
                 case KeyEvent.KEYCODE_VOLUME_MUTE:
                 case KeyEvent.KEYCODE_CAMERA:
                 case KeyEvent.KEYCODE_FOCUS:
+                case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
                     DataModel.getDataModel().resetOrDeleteExpiredTimers(
                             R.string.label_hardware_button);
                     return true;

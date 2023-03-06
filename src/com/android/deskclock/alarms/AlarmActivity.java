@@ -293,6 +293,7 @@ public class AlarmActivity extends BaseActivity
             case KeyEvent.KEYCODE_HEADSETHOOK:
             case KeyEvent.KEYCODE_CAMERA:
             case KeyEvent.KEYCODE_FOCUS:
+            case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
                 if (!mAlarmHandled) {
                     switch (mVolumeBehavior) {
                         case SNOOZE:
